@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dssumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dssumors@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dssumors/tags). For example,
+
+```javascript
 import dssumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dssumors@v0.3.0-deno/mod.js';
 ```
 
@@ -146,7 +151,7 @@ var v = dssumors.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dssumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dssumors@v0.3.0-deno/mod.js';
+import dssumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dssumors@deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float32'
