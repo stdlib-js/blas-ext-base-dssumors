@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-13)
+## Unreleased (2026-08-01)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
 -   [`45710f8`](https://github.com/stdlib-js/stdlib/commit/45710f8f1e2c0353af2798441c01f5fff9ad3fb6) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/dssumors` [(#12537)](https://github.com/stdlib-js/stdlib/pull/12537) _(by Philipp Burckhardt)_
 -   [`06cfc24`](https://github.com/stdlib-js/stdlib/commit/06cfc24f6e476f83649e6e35cacfee6b1a525a66) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11377)](https://github.com/stdlib-js/stdlib/pull/11377) _(by Karan Anand)_
 -   [`ef10b63`](https://github.com/stdlib-js/stdlib/commit/ef10b63ce948b9387c34b80483c2754e21f1f2fd) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dssumors` [(#10751)](https://github.com/stdlib-js/stdlib/pull/10751) _(by Prajjwal Bajpai)_
